@@ -1,0 +1,10 @@
+[
+  {
+    "name": "ricePrivateData",
+    "policy": "OR('FarmerOrg.peer', 'MillerOrg.peer')",
+    "requiredPeerCount": 1,
+    "maxPeerCount": 2,
+    "blockToLive": 100,
+    "memberOnlyRead": true
+  }
+]
